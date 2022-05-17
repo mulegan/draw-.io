@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T17:17:37.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="e8ycx_hMmluea_xdpcg-" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T17:19:51.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="FR1wUjZ0nmHk3VNO8y2a" version="18.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1979" dy="1285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -432,28 +432,31 @@
         <mxCell id="l4Wo4fcdVanVGFJayyd2-496" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-497" target="l4Wo4fcdVanVGFJayyd2-501">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-497" value="&lt;span style=&quot;text-align: left;&quot;&gt;获取仿真方案Uuid&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-497" value="&lt;span style=&quot;text-align: left;&quot;&gt;调用StopSim函数&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
           <mxGeometry x="14.449999999999985" y="530" width="213.75" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-498" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-499" target="l4Wo4fcdVanVGFJayyd2-503">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-499" value="&lt;span style=&quot;text-align: left;&quot;&gt;调用StartSim函数&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-499" value="&lt;span style=&quot;text-align: left;&quot;&gt;心跳设为Flase&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
           <mxGeometry x="15.449999999999989" y="710" width="213.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-500" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-501" target="l4Wo4fcdVanVGFJayyd2-499">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-501" value="&lt;span style=&quot;text-align: left;&quot;&gt;在index0的位置添加主题为simulation-track的订阅并设置服务器质量Qos为0&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-501" value="&lt;span style=&quot;text-align: left;&quot;&gt;清空所有Entity&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
           <mxGeometry x="15.449999999999989" y="600" width="213.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-502" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-503" target="l4Wo4fcdVanVGFJayyd2-504">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-503" value="&lt;span style=&quot;text-align: left;&quot;&gt;启动心跳&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-503" value="设置当前状态类型&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;RUNTIME&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
           <mxGeometry x="15.449999999999989" y="790" width="213.75" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-504" value="&lt;span style=&quot;text-align: left;&quot;&gt;绑定重置、暂停播放请求这两个事件&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-568" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-504" target="l4Wo4fcdVanVGFJayyd2-567">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-504" value="&lt;span style=&quot;text-align: left;&quot;&gt;取消主题&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;simulation-track的订阅&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
           <mxGeometry x="14.449999999999989" y="867.5" width="213.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-549" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-546" target="l4Wo4fcdVanVGFJayyd2-548">
@@ -503,8 +506,11 @@
         <mxCell id="l4Wo4fcdVanVGFJayyd2-566" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-563" target="l4Wo4fcdVanVGFJayyd2-497">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-563" value="&lt;span style=&quot;text-align: left;&quot;&gt;取消主题为track的订阅&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-563" value="&lt;span style=&quot;text-align: left;&quot;&gt;取消主题为track和&lt;br&gt;simulation-track的订阅&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
           <mxGeometry x="15.450000000000008" y="466.25" width="213.75" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-567" value="&lt;span style=&quot;text-align: left;&quot;&gt;清空所有Entity&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+          <mxGeometry x="14.450000000000045" y="940" width="213.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-507" value="Then1" style="swimlane;fillColor=default;gradientColor=none;startSize=23;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-488">
           <mxGeometry x="1156.8" y="810" width="270" height="700" as="geometry">
