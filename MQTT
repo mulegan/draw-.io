@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T17:09:13.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="kf40_PxvdfVqJFFNxSJp" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T17:17:37.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="e8ycx_hMmluea_xdpcg-" version="18.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="2303" dy="1469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1979" dy="1285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,7 +218,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-303" value="UI_SSFZ_NEW" style="swimlane;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;html=1;gradientColor=none;flipH=0;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="-816.8" y="1110" width="1996" height="2340" as="geometry">
+          <mxGeometry x="-816.8" y="1110" width="1996" height="2970" as="geometry">
             <mxRectangle x="-75" y="50" width="70" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -405,62 +405,109 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-488" value="视图切换" style="swimlane;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;html=1;gradientColor=none;flipH=0;startSize=40;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-303">
-          <mxGeometry x="80.00000000000004" y="1210" width="1805.6" height="1070" as="geometry">
+          <mxGeometry x="80" y="1210" width="1805.6" height="1650" as="geometry">
             <mxRectangle x="-75" y="50" width="70" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-489" value="OnIndexButtonClicked" style="swimlane;fillColor=default;gradientColor=none;startSize=25;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-488">
-          <mxGeometry x="366.8" y="125" width="298.75" height="870" as="geometry">
+          <mxGeometry x="126.8" y="130" width="732.35" height="1425" as="geometry">
             <mxRectangle x="840" y="117.5" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-490" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-491" target="l4Wo4fcdVanVGFJayyd2-493">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-492" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-558" target="l4Wo4fcdVanVGFJayyd2-495">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-491" value="&lt;span style=&quot;background-color: initial;&quot;&gt;设置当前状态类型&lt;br&gt;SIMUlATION&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
-          <mxGeometry x="38.13" y="47.5" width="213.75" height="62.5" as="geometry" />
-        </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-492" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-493" target="l4Wo4fcdVanVGFJayyd2-495">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-562" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-493" target="l4Wo4fcdVanVGFJayyd2-558">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-493" value="&lt;span style=&quot;text-align: left;&quot;&gt;取消主题为track的订阅&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
-          <mxGeometry x="38.13" y="162.5" width="213.75" height="37.5" as="geometry" />
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-493" value="&lt;span style=&quot;text-align: left;&quot;&gt;重置SimPlane&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+          <mxGeometry x="14.449999999999989" y="265" width="213.75" height="37.5" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-494" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-495" target="l4Wo4fcdVanVGFJayyd2-497">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-565" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-495" target="l4Wo4fcdVanVGFJayyd2-563">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-495" value="&lt;span style=&quot;text-align: left;&quot;&gt;清空所有Entity实例&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
-          <mxGeometry x="39.13" y="240" width="213.75" height="48.5" as="geometry" />
+          <mxGeometry x="15.449999999999989" y="400" width="213.75" height="48.5" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-496" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-497" target="l4Wo4fcdVanVGFJayyd2-501">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-497" value="&lt;span style=&quot;text-align: left;&quot;&gt;获取仿真方案Uuid&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
-          <mxGeometry x="39.13" y="320" width="213.75" height="49.5" as="geometry" />
+          <mxGeometry x="14.449999999999985" y="530" width="213.75" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-498" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-499" target="l4Wo4fcdVanVGFJayyd2-503">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-499" value="&lt;span style=&quot;text-align: left;&quot;&gt;调用StartSim函数&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
-          <mxGeometry x="39.13" y="510" width="213.75" height="50" as="geometry" />
+          <mxGeometry x="15.449999999999989" y="710" width="213.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-500" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-501" target="l4Wo4fcdVanVGFJayyd2-499">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-501" value="&lt;span style=&quot;text-align: left;&quot;&gt;在index0的位置添加主题为simulation-track的订阅并设置服务器质量Qos为0&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
-          <mxGeometry x="39.13" y="400" width="213.75" height="70" as="geometry" />
+          <mxGeometry x="15.449999999999989" y="600" width="213.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-502" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-503" target="l4Wo4fcdVanVGFJayyd2-504">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-503" value="&lt;span style=&quot;text-align: left;&quot;&gt;启动心跳&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
-          <mxGeometry x="39.129999999999995" y="590" width="213.75" height="50" as="geometry" />
+          <mxGeometry x="15.449999999999989" y="790" width="213.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-504" value="&lt;span style=&quot;text-align: left;&quot;&gt;绑定重置、暂停播放请求这两个事件&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
-          <mxGeometry x="38.129999999999995" y="667.5" width="213.75" height="50" as="geometry" />
+          <mxGeometry x="14.449999999999989" y="867.5" width="213.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-549" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-546" target="l4Wo4fcdVanVGFJayyd2-548">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-546" value="触发" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+          <mxGeometry x="137.2" y="45" width="212" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-548" value="SandBox模式" style="rhombus;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+          <mxGeometry x="177.32999999999998" y="100" width="131.74" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-553" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+          <mxGeometry x="91.32999999999993" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-554" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-548" target="l4Wo4fcdVanVGFJayyd2-553">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84.45000000000016" y="244.99999999999955" as="targetPoint" />
+            <mxPoint x="177.33000000000004" y="144.99999999999955" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-555" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+          <mxGeometry x="394.44999999999993" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-556" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-548" target="l4Wo4fcdVanVGFJayyd2-555">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424.45000000000016" y="244.99999999999955" as="targetPoint" />
+            <mxPoint x="309.07000000000005" y="144.99999999999955" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-551" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-553" target="l4Wo4fcdVanVGFJayyd2-493">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="206.80000000000018" y="244.99999999999955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-558" value="设置当前状态类型&lt;br&gt;NONE&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+          <mxGeometry x="15.45000000000006" y="320" width="213.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-560" value="&lt;span style=&quot;text-align: left;&quot;&gt;启动心跳&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+          <mxGeometry x="331.00000000000006" y="460" width="213.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-561" value="&lt;span style=&quot;text-align: left;&quot;&gt;绑定重置、暂停播放请求这两个事件&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+          <mxGeometry x="330.00000000000006" y="537.5" width="213.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-559" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-560" target="l4Wo4fcdVanVGFJayyd2-561">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-566" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-563" target="l4Wo4fcdVanVGFJayyd2-497">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-563" value="&lt;span style=&quot;text-align: left;&quot;&gt;取消主题为track的订阅&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+          <mxGeometry x="15.450000000000008" y="466.25" width="213.75" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-507" value="Then1" style="swimlane;fillColor=default;gradientColor=none;startSize=23;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-488">
-          <mxGeometry x="816.8" y="220" width="270" height="700" as="geometry">
+          <mxGeometry x="1156.8" y="810" width="270" height="700" as="geometry">
             <mxRectangle x="60" y="85" width="110" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -541,10 +588,10 @@
         <mxCell id="l4Wo4fcdVanVGFJayyd2-529" value="1、一直追到了插件的SimManager中，把一bool类型的&#xa;Start赋值为true." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-528">
           <mxGeometry y="30" width="320" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-530" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-488" source="l4Wo4fcdVanVGFJayyd2-520" target="l4Wo4fcdVanVGFJayyd2-529">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-530" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-488" source="l4Wo4fcdVanVGFJayyd2-520">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1172.8" y="840" as="sourcePoint" />
-            <mxPoint x="1222.8" y="790" as="targetPoint" />
+            <mxPoint x="1512.8" y="1430" as="sourcePoint" />
+            <mxPoint x="1449.6000000000001" y="1305" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-531" value="Then3" style="swimlane;fillColor=default;gradientColor=none;startSize=23;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-488">
@@ -607,6 +654,11 @@
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-356" value="进入实时三维界面" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fillColor=default;gradientColor=none;" connectable="0" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-355">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-552" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-555">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-39.99999999999977" y="2689.9999999999995" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
