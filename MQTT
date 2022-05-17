@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T17:04:24.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="kKjMYRjFOm9B_R1mdjZV" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T17:09:13.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="kf40_PxvdfVqJFFNxSJp" version="18.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="4320" dy="2609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2303" dy="1469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -409,8 +409,8 @@
             <mxRectangle x="-75" y="50" width="70" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-489" value="Then0" style="swimlane;fillColor=default;gradientColor=none;startSize=23;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-488">
-          <mxGeometry x="34" y="170" width="298.75" height="870" as="geometry">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-489" value="OnIndexButtonClicked" style="swimlane;fillColor=default;gradientColor=none;startSize=25;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-488">
+          <mxGeometry x="366.8" y="125" width="298.75" height="870" as="geometry">
             <mxRectangle x="840" y="117.5" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -459,17 +459,8 @@
         <mxCell id="l4Wo4fcdVanVGFJayyd2-504" value="&lt;span style=&quot;text-align: left;&quot;&gt;绑定重置、暂停播放请求这两个事件&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
           <mxGeometry x="38.129999999999995" y="667.5" width="213.75" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-505" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-488">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="224.8" y="90" as="sourcePoint" />
-            <mxPoint x="1580.8" y="90" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-506" value="Sequence" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-505">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-507" value="Then1" style="swimlane;fillColor=default;gradientColor=none;startSize=23;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-488">
-          <mxGeometry x="384" y="170" width="270" height="720" as="geometry">
+          <mxGeometry x="816.8" y="220" width="270" height="700" as="geometry">
             <mxRectangle x="60" y="85" width="110" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -521,7 +512,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-522" value="Then2" style="swimlane;fillColor=default;gradientColor=none;startSize=23;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-488">
-          <mxGeometry x="760" y="170" width="250" height="355" as="geometry">
+          <mxGeometry x="1192.8" y="200" width="250" height="355" as="geometry">
             <mxRectangle x="60" y="85" width="110" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -543,7 +534,7 @@
           <mxGeometry x="18.120000000000005" y="230" width="213.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-528" value="Tips" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=default;gradientColor=none;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-488">
-          <mxGeometry x="690" y="690" width="320" height="80" as="geometry">
+          <mxGeometry x="1109.6" y="660" width="320" height="80" as="geometry">
             <mxRectangle x="30" y="120" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -552,12 +543,12 @@
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-530" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-488" source="l4Wo4fcdVanVGFJayyd2-520" target="l4Wo4fcdVanVGFJayyd2-529">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="740" y="810" as="sourcePoint" />
-            <mxPoint x="790" y="760" as="targetPoint" />
+            <mxPoint x="1172.8" y="840" as="sourcePoint" />
+            <mxPoint x="1222.8" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-531" value="Then3" style="swimlane;fillColor=default;gradientColor=none;startSize=23;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-488">
-          <mxGeometry x="1064" y="170" width="270" height="720" as="geometry">
+          <mxGeometry x="1496.8" y="200" width="270" height="720" as="geometry">
             <mxRectangle x="60" y="85" width="110" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
