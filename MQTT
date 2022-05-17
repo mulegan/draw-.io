@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T11:36:49.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="xaqP02FSM0CjM2UJeXNs" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T11:39:31.613Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="BBToUWm0dNzbgtQYTruf" version="18.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="2351" dy="1495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
         <mxCell id="l4Wo4fcdVanVGFJayyd2-276" value="&lt;span style=&quot;text-align: left;&quot;&gt;在index0的位置添加主题为track的订阅&lt;br&gt;并设置服务器质量Qos为0&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-210">
           <mxGeometry x="39.13" y="370.5" width="213.75" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-293" value="&lt;span style=&quot;text-align: left;&quot;&gt;开始Simulation&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-210">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-293" value="&lt;span style=&quot;text-align: left;&quot;&gt;调用StartSim函数&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-210">
           <mxGeometry x="39.129999999999995" y="460.5" width="213.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-223" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-160" source="l4Wo4fcdVanVGFJayyd2-214" target="l4Wo4fcdVanVGFJayyd2-230">
@@ -179,7 +179,7 @@
             <mxRectangle x="30" y="120" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-298" value="1、SimActor继承于PlaneEntity，状态类型是PlaneEntity&#xa;    的一个枚举类。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-297">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-298" value="1、一直追到了插件的SimManager中，把一bool类型的&#xa;Start赋值为true." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-297">
           <mxGeometry y="30" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-300" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-160" source="l4Wo4fcdVanVGFJayyd2-274" target="l4Wo4fcdVanVGFJayyd2-270">
