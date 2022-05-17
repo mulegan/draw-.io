@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T10:24:05.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="xHXHAKMTtBMcV9kVVDpS" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T10:29:23.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="TgsAU-zq7CDAEl1B6DsL" version="18.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="2260" dy="1444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -94,7 +94,7 @@
             <mxRectangle x="30" y="300" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-248" value="1、SimActor构造的时候通过&#xa;    FGuid ClientID = FGuid::NewGuid();&#xa;    得到全球唯一识别码GUID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-247">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-248" value="1、C++中输入的String需要转换成ANSI编码&#xa;（UE4中默认字符串是TChar数组或者Fstring，当需要用&#xa;到外部API需要转换成不同的编码）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-247">
           <mxGeometry y="30" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-249" value="2、BP_SimActor继承自SimActor，所以可以通过在蓝图&#xa;直接调用GetClientIDString返回ClientID.ToString得到GUID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-247">
