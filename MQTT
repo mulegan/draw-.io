@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T08:43:54.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="soxn0oJ_VxbzOirPxpXI" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T09:18:39.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="EIu2kBMcgtMlN_pUre8b" version="18.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="2219" dy="1421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2402" dy="1524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,17 +8,17 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2" value="开始" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="-30" width="120" height="30" as="geometry" />
+          <mxGeometry x="260" y="-160" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-160" value="初始化" style="swimlane;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;html=1;gradientColor=none;flipH=0;" vertex="1" parent="1">
-          <mxGeometry x="-75" y="50" width="790" height="600" as="geometry">
+          <mxGeometry x="-670" y="-40" width="1980" height="840" as="geometry">
             <mxRectangle x="-75" y="50" width="70" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-205" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-160">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="50" as="sourcePoint" />
-            <mxPoint x="670" y="50" as="targetPoint" />
+            <mxPoint x="415" y="90" as="sourcePoint" />
+            <mxPoint x="1025" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-206" value="Sequence" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-205">
@@ -28,21 +28,41 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-208" value="BP_SimActor" style="swimlane;fillColor=default;gradientColor=none;startSize=23;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-160">
-          <mxGeometry x="60" y="85" width="250" height="355" as="geometry" />
+          <mxGeometry x="390" y="120" width="250" height="355" as="geometry">
+            <mxRectangle x="60" y="85" width="110" height="23" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-208" source="l4Wo4fcdVanVGFJayyd2-214" target="l4Wo4fcdVanVGFJayyd2-218">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="135.00000000000023" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-214" value="&lt;span style=&quot;background-color: initial;&quot;&gt;通过Name类型注册在EntityManage的&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-208">
-          <mxGeometry x="23.12" y="45" width="213.75" height="70" as="geometry" />
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-214" value="&lt;span style=&quot;background-color: initial;&quot;&gt;通过Name类型和Entity类型在EntityManager中进行注册&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-208">
+          <mxGeometry x="18.130000000000003" y="45" width="213.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-218" value="&lt;span style=&quot;text-align: left;&quot;&gt;注册Model得到客户端ID&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-208">
-          <mxGeometry x="23.12" y="135" width="213.75" height="70" as="geometry" />
+          <mxGeometry x="18.130000000000003" y="135" width="213.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-210" value="MainLevel" style="swimlane;fillColor=default;gradientColor=none;startSize=23;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-160">
-          <mxGeometry x="470" y="80" width="290" height="360" as="geometry" />
+          <mxGeometry x="840" y="117.5" width="290" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-223" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-160" source="l4Wo4fcdVanVGFJayyd2-214" target="l4Wo4fcdVanVGFJayyd2-230">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="227.5" as="sourcePoint" />
+            <mxPoint x="330" y="202.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-230" value="实现原理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=default;gradientColor=none;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-160">
+          <mxGeometry x="30" y="120" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-233" value="1、源码在Xproject项目中Xcore插件中的EntityManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-230">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-231" value="2、把FName和AEntity的子类型存在RegisterEntityTypes&#xa;这个TMap里面；FName也存放在TypeSort这个TArray中" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-230">
+          <mxGeometry y="60" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-232" value="3、Tmap存在相同的FName或者成功注册，则返回true。&#xa;FName为空或者InCls类的指针为nullptr，则返回失败。&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-230">
+          <mxGeometry y="110" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-166" value="1、通过Name类型注册在EntityManage的Model" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.09999999999999999;align=left;" vertex="1" parent="1">
           <mxGeometry x="840" y="240" width="280" height="100" as="geometry" />
