@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T11:15:26.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="M7-jRRu2ssWm-950lu2G" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T11:33:46.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="EwPncMnzlhNC_4ezmDiH" version="18.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="2402" dy="1524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2351" dy="1495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="260" y="-160" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-160" value="初始化" style="swimlane;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;html=1;gradientColor=none;flipH=0;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="-39" width="1980" height="840" as="geometry">
+          <mxGeometry x="-670" y="-39" width="3050" height="1060" as="geometry">
             <mxRectangle x="-75" y="50" width="70" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -50,7 +50,7 @@
           <mxGeometry x="18.120000000000005" y="230" width="213.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-210" value="UI_Index" style="swimlane;fillColor=default;gradientColor=none;startSize=23;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-160">
-          <mxGeometry x="840" y="118.5" width="290" height="472.5" as="geometry">
+          <mxGeometry x="840" y="118.5" width="290" height="541.5" as="geometry">
             <mxRectangle x="840" y="117.5" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -63,11 +63,23 @@
         <mxCell id="l4Wo4fcdVanVGFJayyd2-272" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-210" source="l4Wo4fcdVanVGFJayyd2-261" target="l4Wo4fcdVanVGFJayyd2-270">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-261" value="&lt;span style=&quot;text-align: left;&quot;&gt;取消simulation-track订阅&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-210">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-261" value="&lt;span style=&quot;text-align: left;&quot;&gt;取消主题为simulation-track的订阅&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-210">
           <mxGeometry x="38.13" y="162.5" width="213.75" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-270" value="&lt;span style=&quot;text-align: left;&quot;&gt;清空所有Entities实例&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-210">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-210" source="l4Wo4fcdVanVGFJayyd2-270" target="l4Wo4fcdVanVGFJayyd2-276">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-270" value="&lt;span style=&quot;text-align: left;&quot;&gt;清空所有Entity实例&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-210">
           <mxGeometry x="39.129999999999995" y="271.5" width="213.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-210" source="l4Wo4fcdVanVGFJayyd2-276" target="l4Wo4fcdVanVGFJayyd2-293">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-276" value="&lt;span style=&quot;text-align: left;&quot;&gt;在index0的位置添加主题为track的订阅&lt;br&gt;并设置服务器质量Qos为0&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-210">
+          <mxGeometry x="39.13" y="370.5" width="213.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-293" value="&lt;span style=&quot;text-align: left;&quot;&gt;开始Simulation&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-210">
+          <mxGeometry x="39.129999999999995" y="460.5" width="213.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-223" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-160" source="l4Wo4fcdVanVGFJayyd2-214" target="l4Wo4fcdVanVGFJayyd2-230">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -151,10 +163,21 @@
             <mxRectangle x="30" y="120" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-274" value="1、细节挺多的，一些方法不是那么明白&#xa;    比如ConditionBeginDestroy,EntityManager中还有大量&#xa;    的模板，C++模板有点忘了现在就记得为了省去对每一个&#xa;类型进行重复的工作" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-273">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-274" value="1、细节挺多的，一些方法不是那么明白&#xa;    比如ConditionBeginDestroy,EntityManager中还有大量&#xa;    的模板，C++模板有点忘了现在就记得为了省去对每一&#xa;    个类型进行重复的工作" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-273">
           <mxGeometry y="30" width="320" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-160" source="l4Wo4fcdVanVGFJayyd2-270" target="l4Wo4fcdVanVGFJayyd2-274">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-278" value="Tips" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=default;gradientColor=none;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-160">
+          <mxGeometry x="1200" y="474" width="320" height="190" as="geometry">
+            <mxRectangle x="30" y="120" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-279" value="1、搜索的MQTT的QOS：&#xa;https://blog.csdn.net/yangguosb/article/details/78653228&#xa;        Qos0：发送者只发送一次消息，不进行重试。Broker&#xa;不会返回确认信息。在这种情况下，Broker可能没有接受到&#xa;消息。&#xa;        Qos1：发送者最少发送一次消息，确保消息到达&#xa;Broker，Broker需要确认消息PUBACK。在这种情况下&#xa;Broker可能接受到重复消息。&#xa;        Qos2：需要使用两个阶段来确保信息的不丢失和不重&#xa;复。在这种情况下，Broker肯定会收到消息，且只收到一次" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-278">
+          <mxGeometry y="30" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-160" source="l4Wo4fcdVanVGFJayyd2-276" target="l4Wo4fcdVanVGFJayyd2-278">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-263" value="Tips" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=default;gradientColor=none;" vertex="1" parent="1">
