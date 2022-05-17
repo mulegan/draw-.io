@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T10:29:36.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="gSjhEyvvkeZEx7JYXbXn" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T10:36:17.335Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="OztkjyVxB78sDBLfKRvU" version="18.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="2260" dy="1444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2942" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="l4Wo4fcdVanVGFJayyd2-245" value="&lt;span style=&quot;text-align: left;&quot;&gt;MQTT初始化连接&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-208">
           <mxGeometry x="18.120000000000005" y="230" width="213.75" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-210" value="MainLevel" style="swimlane;fillColor=default;gradientColor=none;startSize=23;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-160">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-210" value="UI_Index" style="swimlane;fillColor=default;gradientColor=none;startSize=23;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-160">
           <mxGeometry x="840" y="117.5" width="290" height="360" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-223" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-160" source="l4Wo4fcdVanVGFJayyd2-214" target="l4Wo4fcdVanVGFJayyd2-230">
@@ -90,12 +90,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-247" value="Tips" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=default;gradientColor=none;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-160">
-          <mxGeometry x="30" y="454" width="320" height="90" as="geometry">
+          <mxGeometry x="30" y="454" width="320" height="140" as="geometry">
             <mxRectangle x="30" y="300" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-248" value="1、C++中输入的String需要转换成ANSI编码&#xa;（UE4中默认字符串是TChar数组或者Fstring，当需要用&#xa;到外部API需要转换成不同的编码）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-247">
           <mxGeometry y="30" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-249" value="2、BP_SimActor继承自SimActor，所以可以通过在蓝图&#xa;直接调用GetClientIDString返回ClientID.ToString得到GUID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-247">
+          <mxGeometry y="90" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-250" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-160" source="l4Wo4fcdVanVGFJayyd2-245" target="l4Wo4fcdVanVGFJayyd2-248">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
