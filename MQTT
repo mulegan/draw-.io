@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T01:21:22.476Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="TJH3qI4lNe5VdF_j7h2t" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-18T14:54:51.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="fWbt16P-n4aVbazpvsqN" version="18.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="2147" dy="1380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2147" dy="2207" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="121.19999999999999" y="-180" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-160" value="初始化" style="swimlane;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;html=1;gradientColor=none;flipH=0;" vertex="1" parent="1">
-          <mxGeometry x="-814" y="60" width="1990.4" height="830" as="geometry">
+          <mxGeometry x="-814" y="70" width="1990.4" height="830" as="geometry">
             <mxRectangle x="-75" y="50" width="70" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -50,7 +50,7 @@
           <mxGeometry x="18.120000000000005" y="230" width="213.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-210" value="UI_Index" style="swimlane;fillColor=default;gradientColor=none;startSize=23;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-160">
-          <mxGeometry x="1047" y="118.5" width="290" height="541.5" as="geometry">
+          <mxGeometry x="1047" y="118.5" width="290" height="571.5" as="geometry">
             <mxRectangle x="840" y="117.5" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -150,7 +150,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-268" value="Actor生成完毕，绘制UI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-160">
-          <mxGeometry x="660" y="285" width="140" height="25" as="geometry" />
+          <mxGeometry x="774" y="285" width="140" height="25" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-269" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-160" source="l4Wo4fcdVanVGFJayyd2-208" target="l4Wo4fcdVanVGFJayyd2-268">
           <mxGeometry relative="1" as="geometry">
@@ -536,6 +536,53 @@
         <mxCell id="l4Wo4fcdVanVGFJayyd2-552" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-555">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-39.99999999999977" y="2689.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-574" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-573" target="l4Wo4fcdVanVGFJayyd2-575">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1780" y="-980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-573" value="开始" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="-1070" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-579" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-575" target="l4Wo4fcdVanVGFJayyd2-578">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-575" value="注册Model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="-1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-584" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-578" target="l4Wo4fcdVanVGFJayyd2-582">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-578" value="MQTT初始化连接" style="whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="-925" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-580" value="添加主题为track的订阅" style="whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="-834.5" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-585" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-588" target="l4Wo4fcdVanVGFJayyd2-580">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-582" value="SimActor Is Vaild" style="rhombus;whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="-860" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-586" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-582">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1750" y="-720" as="sourcePoint" />
+            <mxPoint x="1780" y="-660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-587" value="否" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fillColor=default;gradientColor=none;" connectable="0" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-586">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-588" value="是" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="-823.5" width="30" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-589" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-582" target="l4Wo4fcdVanVGFJayyd2-588">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1840" y="-810" as="sourcePoint" />
+            <mxPoint x="1940" y="-810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
