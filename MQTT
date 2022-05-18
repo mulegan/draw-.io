@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T15:40:03.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="LaZZ8WfwrudnZlRK-NGO" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-18T15:42:00.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="OEn3Yi2KCzzrblr7_T2o" version="18.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="2745" dy="2545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1935" dy="2088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -567,7 +567,7 @@
         <mxCell id="l4Wo4fcdVanVGFJayyd2-582" value="SimActor Is Vaild" style="rhombus;whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1720" y="-860" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-586" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-582">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-586" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-582" target="l4Wo4fcdVanVGFJayyd2-730">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1750" y="-720" as="sourcePoint" />
             <mxPoint x="1780" y="-660" as="targetPoint" />
@@ -825,6 +825,15 @@
               <mxPoint x="3575" y="-510" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-732" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-730" target="l4Wo4fcdVanVGFJayyd2-731">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-730" value="SimActor析构" style="whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="-650" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-731" value="结束" style="whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="-570" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
