@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T02:52:15.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="g6ea5AD6Uf1-IhCQjFV9" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T02:52:49.356Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="B_2--560i-InKzWEdDBY" version="18.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="3351" dy="2888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3532" dy="2991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -233,7 +233,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-303" value="UI_SSFZ_NEW" style="swimlane;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;html=1;gradientColor=none;flipH=0;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="-814" y="1579" width="1996" height="2970" as="geometry">
+          <mxGeometry x="-816.8" y="1579" width="1996" height="2970" as="geometry">
             <mxRectangle x="-75" y="50" width="70" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1052,6 +1052,9 @@
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-885" value="取消订阅" style="whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1720" y="-530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-975" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-906" target="l4Wo4fcdVanVGFJayyd2-303">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-906" value="初始化" style="swimlane;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;html=1;gradientColor=none;flipH=0;" vertex="1" parent="1">
           <mxGeometry x="-814" y="950" width="1990.4" height="570" as="geometry">
