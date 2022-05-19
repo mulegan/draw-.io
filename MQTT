@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T02:59:06.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="fA4DRAAh5YsLN8f48-53" version="18.0.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-19T03:00:18.584Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="wOdSfGm7l53GcVaaljoj" version="18.0.6" type="github" pages="3">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="8259" dy="4552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2114" dy="1324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -627,7 +627,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-590" value="MQTTLoopWorker" style="swimlane;fillColor=default;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2250" y="370" width="1670" height="820" as="geometry" />
+          <mxGeometry x="2240" y="370" width="1670" height="820" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-593" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-590" source="l4Wo4fcdVanVGFJayyd2-591" target="l4Wo4fcdVanVGFJayyd2-592">
           <mxGeometry relative="1" as="geometry" />
@@ -794,7 +794,7 @@
           <mxGeometry x="370" y="550" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-707" value="Break" style="whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-590">
-          <mxGeometry x="550" y="550" width="120" height="30" as="geometry" />
+          <mxGeometry x="615" y="570" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-881" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-590" source="l4Wo4fcdVanVGFJayyd2-708" target="l4Wo4fcdVanVGFJayyd2-729">
           <mxGeometry relative="1" as="geometry" />
@@ -1050,11 +1050,6 @@
         <mxCell id="l4Wo4fcdVanVGFJayyd2-731" value="结束" style="whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1810" y="1050" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-880" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-707">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2330" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-886" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-885" target="l4Wo4fcdVanVGFJayyd2-730">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1083,6 +1078,16 @@
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-905" value="绑定SimActorSimEnd事件&lt;br&gt;当被得到仿真结束的时候，&lt;br&gt;切换到完成按钮" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=default;gradientColor=none;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-906">
           <mxGeometry x="905.13" y="60" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2pzfSQgIpHm5H3ds_Juf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-707">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2320" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2915" y="1030" />
+              <mxPoint x="2320" y="1030" />
+              <mxPoint x="2320" y="1110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1692,7 +1697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w_o98xEG2bFMHwRGlwCK" name="OnlySimActor">
-    <mxGraphModel dx="-927" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1497" dy="1656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
