@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T02:48:14.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="o4Id_W7ESGbWYYzAW6ZR" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T02:48:57.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="I_BoPaawHhcFZD4W8foU" version="18.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="2662" dy="2498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -509,8 +509,11 @@
         <mxCell id="l4Wo4fcdVanVGFJayyd2-558" value="设置当前状态类型&lt;br&gt;NONE&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
           <mxGeometry x="15.45000000000006" y="320" width="213.75" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-560" value="&lt;span style=&quot;text-align: left;&quot;&gt;启动心跳&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-560" value="设置当前状态类型&lt;br&gt;SIMULATION&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
           <mxGeometry x="413.62" y="265" width="213.75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-964" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-489" source="l4Wo4fcdVanVGFJayyd2-561" target="l4Wo4fcdVanVGFJayyd2-560">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-561" value="&lt;span style=&quot;text-align: left;&quot;&gt;绑定重置、暂停播放请求这两个事件&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
           <mxGeometry x="413.12000000000006" y="331" width="213.75" height="50" as="geometry" />
