@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T02:33:05.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="m88pkJi_WtForXL69yiK" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T02:44:54.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="nvbeknI2Chpxu4NCfgue" version="18.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="2662" dy="2498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2519" dy="2418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="2" value="开始" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="121.19999999999999" y="-180" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-902" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-160" target="l4Wo4fcdVanVGFJayyd2-901">
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-962" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-160" target="l4Wo4fcdVanVGFJayyd2-906">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-160" value="初始化" style="swimlane;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;html=1;gradientColor=none;flipH=0;" vertex="1" parent="1">
@@ -233,7 +233,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-303" value="UI_SSFZ_NEW" style="swimlane;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;html=1;gradientColor=none;flipH=0;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="-816.8" y="1110" width="1996" height="2970" as="geometry">
+          <mxGeometry x="-814" y="1579" width="1996" height="2970" as="geometry">
             <mxRectangle x="-75" y="50" width="70" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -539,15 +539,9 @@
         <mxCell id="l4Wo4fcdVanVGFJayyd2-571" value="&lt;span style=&quot;text-align: left;&quot;&gt;调用StartSim函数&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=none;align=center;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-489">
           <mxGeometry x="14.450000000000045" y="1140" width="213.75" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-355" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-901" target="l4Wo4fcdVanVGFJayyd2-303">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="970" as="sourcePoint" />
-            <mxPoint x="250" y="970" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-552" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-555">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-39.99999999999977" y="2689.9999999999995" as="targetPoint" />
+            <mxPoint x="-39.99999999999977" y="2778.9999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l4Wo4fcdVanVGFJayyd2-574" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4Wo4fcdVanVGFJayyd2-573" target="l4Wo4fcdVanVGFJayyd2-575">
@@ -1026,8 +1020,25 @@
         <mxCell id="l4Wo4fcdVanVGFJayyd2-885" value="取消订阅" style="whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1720" y="-530" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l4Wo4fcdVanVGFJayyd2-901" value="设定实时仿真发难方案&lt;br&gt;并进入仿真界面" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=default;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="91.2" y="970" width="180" height="60" as="geometry" />
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-906" value="初始化" style="swimlane;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;html=1;gradientColor=none;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="-814" y="950" width="1990.4" height="570" as="geometry">
+            <mxRectangle x="-75" y="50" width="70" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-901" value="设定实时仿真方案&lt;br&gt;并订阅simulation-result&lt;br&gt;通过Http将数据传输到服务器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=default;gradientColor=none;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-906">
+          <mxGeometry x="905.13" y="150" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-903" value="得到仿真返回数据&lt;br&gt;进入仿真界面" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=default;gradientColor=none;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-906">
+          <mxGeometry x="905.13" y="240" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-904" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-906" source="l4Wo4fcdVanVGFJayyd2-901" target="l4Wo4fcdVanVGFJayyd2-903">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-963" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="l4Wo4fcdVanVGFJayyd2-906" source="l4Wo4fcdVanVGFJayyd2-905" target="l4Wo4fcdVanVGFJayyd2-901">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4Wo4fcdVanVGFJayyd2-905" value="绑定SimActorSimEnd事件&lt;br&gt;当被得到仿真结束的时候，&lt;br&gt;切换到完成按钮" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=default;gradientColor=none;" vertex="1" parent="l4Wo4fcdVanVGFJayyd2-906">
+          <mxGeometry x="905.13" y="60" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
