@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T17:18:34.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="LedhytwkHen2GTzau9SK" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T17:23:07.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="4O7CYgWILFleUqaKiynf" version="18.0.7" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="2222" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2523" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -310,7 +310,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-217" value="EPlayOrder::FORWARD" style="swimlane;strokeColor=#000000;strokeWidth=5;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4780" y="2060" width="940" height="820" as="geometry" />
+          <mxGeometry x="4780" y="2050" width="1180" height="1160" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-220" target="iEZ80BCw2AyuzArefpKH-221">
           <mxGeometry relative="1" as="geometry" />
@@ -330,7 +330,7 @@
         <mxCell id="iEZ80BCw2AyuzArefpKH-224" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;strokeWidth=5;fillColor=default;" connectable="0" vertex="1" parent="iEZ80BCw2AyuzArefpKH-223">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iEZ80BCw2AyuzArefpKH-225" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.008;exitY=0.496;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-221">
+        <mxCell id="iEZ80BCw2AyuzArefpKH-225" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.008;exitY=0.496;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-221" target="iEZ80BCw2AyuzArefpKH-235">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="530" y="264.83" as="sourcePoint" />
             <mxPoint x="740" y="264.83" as="targetPoint" />
@@ -342,7 +342,7 @@
         <mxCell id="iEZ80BCw2AyuzArefpKH-227" value="数据的时间是否是当前Step中&lt;br&gt;Action-&amp;gt;DateTime &amp;lt; NextTime" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=5;fillColor=default;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
           <mxGeometry x="80" y="418" width="440" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="iEZ80BCw2AyuzArefpKH-228" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-227">
+        <mxCell id="iEZ80BCw2AyuzArefpKH-228" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-227" target="iEZ80BCw2AyuzArefpKH-232">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="615.7600000000002" as="sourcePoint" />
             <mxPoint x="300" y="673.7600000000002" as="targetPoint" />
@@ -351,7 +351,7 @@
         <mxCell id="iEZ80BCw2AyuzArefpKH-229" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;strokeWidth=5;fillColor=default;" connectable="0" vertex="1" parent="iEZ80BCw2AyuzArefpKH-228">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iEZ80BCw2AyuzArefpKH-230" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-227">
+        <mxCell id="iEZ80BCw2AyuzArefpKH-230" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-227" target="iEZ80BCw2AyuzArefpKH-233">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540.0000000000005" y="512.63" as="sourcePoint" />
             <mxPoint x="756.48" y="513.2200000000001" as="targetPoint" />
@@ -359,6 +359,15 @@
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-231" value="否" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;strokeWidth=5;fillColor=default;" connectable="0" vertex="1" parent="iEZ80BCw2AyuzArefpKH-230">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-232" value="尾部数据出列，并执行这个Action的Action的函数&lt;br&gt;（反射相关）&lt;br&gt;缓存数-1&lt;br&gt;输出日志？&lt;br&gt;&lt;div&gt;Actions.Dequeue(Action);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;				&lt;/span&gt;EntityManager-&amp;gt;Execute(Action.Get());&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;				&lt;/span&gt;CacheNum--;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;				&lt;/span&gt;Utils::Debug(5, FColor::Yellow) &amp;lt;&amp;lt; Action-&amp;gt;FuncName &amp;lt;&amp;lt; &quot;:&quot; &amp;lt;&amp;lt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Action-&amp;gt;DateTime.ToString() &amp;lt;&amp;lt; Utils::Endl();&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
+          <mxGeometry x="60" y="700" width="480" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-233" value="跳出循环&lt;br&gt;break" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
+          <mxGeometry x="770" y="478.5" width="240" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-235" value="停止循环" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
+          <mxGeometry x="760" y="230.5" width="240" height="69" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-219" value="BACKWARDFORWARD" style="swimlane;strokeColor=#000000;strokeWidth=5;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="5680" y="1865" width="200" height="200" as="geometry" />
