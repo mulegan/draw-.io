@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T17:41:57.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="7yL85AP7k3Sq80b-EPqd" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T17:45:43.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="qhIk4OxS-vyceYVxV1s9" version="18.0.7" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="2842" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3754" dy="1458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -310,7 +310,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-217" value="EPlayOrder::FORWARD" style="swimlane;strokeColor=#000000;strokeWidth=5;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4070" y="2110" width="2360" height="1755" as="geometry" />
+          <mxGeometry x="4070" y="2110" width="2360" height="2040" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-220" target="iEZ80BCw2AyuzArefpKH-221">
           <mxGeometry relative="1" as="geometry" />
@@ -459,6 +459,38 @@
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-264" value="停止循环" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
           <mxGeometry x="1535" y="1030.5" width="240" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-269" value="判断下一个step时间，如果超出了终止时间，停止预演&lt;br&gt;EndTime &amp;lt;= NextTime" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=5;fillColor=default;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
+          <mxGeometry x="1435" y="1330" width="440" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-268" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-264" target="iEZ80BCw2AyuzArefpKH-269">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1655" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-270" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-269" target="iEZ80BCw2AyuzArefpKH-274">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1950" y="1420" as="sourcePoint" />
+            <mxPoint x="2040" y="1425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-271" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;strokeWidth=5;fillColor=default;" connectable="0" vertex="1" parent="iEZ80BCw2AyuzArefpKH-270">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-272" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-269" target="iEZ80BCw2AyuzArefpKH-275">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="1606" as="sourcePoint" />
+            <mxPoint x="1655" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-273" value="否" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;strokeWidth=5;fillColor=default;" connectable="0" vertex="1" parent="iEZ80BCw2AyuzArefpKH-272">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-274" value="退出预演&lt;br&gt;return" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
+          <mxGeometry x="2080" y="1390.5" width="240" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-275" value="时间设为下一个时间&lt;br&gt;&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;CurrentTime = NextTime;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
+          <mxGeometry x="1535" y="1620" width="240" height="69" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-219" value="BACKWARDFORWARD" style="swimlane;strokeColor=#000000;strokeWidth=5;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="5680" y="1865" width="200" height="200" as="geometry" />
