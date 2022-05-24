@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T17:32:53.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="QSQ7Lh8xNdbJkRgFRPMp" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T17:40:50.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="KaF3iqzbEu9eYIniKv2k" version="18.0.7" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="2947" dy="1003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3200" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -310,99 +310,106 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-217" value="EPlayOrder::FORWARD" style="swimlane;strokeColor=#000000;strokeWidth=5;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4290" y="2110" width="1920" height="1755" as="geometry" />
+          <mxGeometry x="4070" y="2110" width="2360" height="1755" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-220" target="iEZ80BCw2AyuzArefpKH-221">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-220" value="创建下个step时间&lt;br&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;int64 AddTime = Step * Speed * 10000;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;FDateTime NextTime(CurrentTime.GetTicks() + AddTime);&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
-          <mxGeometry x="750" y="80" width="420" height="69" as="geometry" />
+          <mxGeometry x="950" y="70" width="420" height="69" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-221" value="检查Actions队列中是否存在有效数据&lt;br&gt;Actions.Peek(Action)" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=5;fillColor=default;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
-          <mxGeometry x="740" y="190" width="440" height="190" as="geometry" />
+          <mxGeometry x="940" y="180" width="440" height="190" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-223" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-221" target="iEZ80BCw2AyuzArefpKH-227">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="385" as="sourcePoint" />
-            <mxPoint x="960" y="485" as="targetPoint" />
+            <mxPoint x="1160" y="375" as="sourcePoint" />
+            <mxPoint x="1160" y="475" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-224" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;strokeWidth=5;fillColor=default;" connectable="0" vertex="1" parent="iEZ80BCw2AyuzArefpKH-223">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-227" value="数据的时间是否是当前Step中&lt;br&gt;Action-&amp;gt;DateTime &amp;lt; NextTime" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=5;fillColor=default;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
-          <mxGeometry x="740" y="438" width="440" height="190" as="geometry" />
+          <mxGeometry x="940" y="428" width="440" height="190" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-228" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-227" target="iEZ80BCw2AyuzArefpKH-232">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="635.7600000000002" as="sourcePoint" />
-            <mxPoint x="960" y="693.7600000000002" as="targetPoint" />
+            <mxPoint x="1160" y="625.7600000000002" as="sourcePoint" />
+            <mxPoint x="1160" y="683.7600000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-229" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;strokeWidth=5;fillColor=default;" connectable="0" vertex="1" parent="iEZ80BCw2AyuzArefpKH-228">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iEZ80BCw2AyuzArefpKH-230" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-227" target="iEZ80BCw2AyuzArefpKH-233">
+        <mxCell id="iEZ80BCw2AyuzArefpKH-230" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-227" target="iEZ80BCw2AyuzArefpKH-233">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1200.0000000000005" y="532.63" as="sourcePoint" />
-            <mxPoint x="1416.48" y="533.2200000000001" as="targetPoint" />
+            <mxPoint x="1400.0000000000005" y="522.63" as="sourcePoint" />
+            <mxPoint x="1616.48" y="523.2200000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-231" value="否" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;strokeWidth=5;fillColor=default;" connectable="0" vertex="1" parent="iEZ80BCw2AyuzArefpKH-230">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-232" value="尾部数据出列，并执行这个Action的Action的函数&lt;br&gt;（反射相关）&lt;br&gt;缓存数-1&lt;br&gt;输出日志？&lt;br&gt;&lt;div&gt;Actions.Dequeue(Action);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;				&lt;/span&gt;EntityManager-&amp;gt;Execute(Action.Get());&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;				&lt;/span&gt;CacheNum--;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;				&lt;/span&gt;Utils::Debug(5, FColor::Yellow) &amp;lt;&amp;lt; Action-&amp;gt;FuncName &amp;lt;&amp;lt; &quot;:&quot; &amp;lt;&amp;lt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Action-&amp;gt;DateTime.ToString() &amp;lt;&amp;lt; Utils::Endl();&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
-          <mxGeometry x="720" y="720" width="480" height="150" as="geometry" />
+          <mxGeometry x="920" y="710" width="480" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-233" target="iEZ80BCw2AyuzArefpKH-235">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="275" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-233" value="跳出循环&lt;br&gt;break" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
-          <mxGeometry x="1430" y="498.5" width="240" height="69" as="geometry" />
+          <mxGeometry x="640" y="488.5" width="240" height="69" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-235" target="iEZ80BCw2AyuzArefpKH-248">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="870" as="targetPoint" />
+            <mxPoint x="610" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-235" value="停止循环" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
-          <mxGeometry x="290" y="250.5" width="240" height="69" as="geometry" />
+          <mxGeometry x="490" y="240.5" width="240" height="69" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-238" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-232">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1340" y="830" as="sourcePoint" />
-            <mxPoint x="960" y="170" as="targetPoint" />
+            <mxPoint x="1540" y="820" as="sourcePoint" />
+            <mxPoint x="1160" y="160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1730" y="795" />
-              <mxPoint x="1730" y="170" />
+              <mxPoint x="1930" y="785" />
+              <mxPoint x="1930" y="160" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-244" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-221" target="iEZ80BCw2AyuzArefpKH-235">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1183.5200000000004" y="284.2399999999998" as="sourcePoint" />
-            <mxPoint x="1445" y="285" as="targetPoint" />
+            <mxPoint x="1383.5200000000004" y="274.2399999999998" as="sourcePoint" />
+            <mxPoint x="1645" y="275" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-245" value="否" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;strokeWidth=5;fillColor=default;" connectable="0" vertex="1" parent="iEZ80BCw2AyuzArefpKH-244">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-248" value="检查PathActions队列中是否存在有效数据&lt;br&gt;Actions.Peek(Action)" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=5;fillColor=default;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
-          <mxGeometry x="190" y="980" width="440" height="190" as="geometry" />
+          <mxGeometry x="390" y="970" width="440" height="190" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-249" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-248" target="iEZ80BCw2AyuzArefpKH-251">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-3880" y="-935" as="sourcePoint" />
-            <mxPoint x="-3880" y="-835" as="targetPoint" />
+            <mxPoint x="-3680" y="-945" as="sourcePoint" />
+            <mxPoint x="-3680" y="-845" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-250" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;strokeWidth=5;fillColor=default;" connectable="0" vertex="1" parent="iEZ80BCw2AyuzArefpKH-249">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-251" value="数据的时间是否是当前Step中&lt;br&gt;Action-&amp;gt;DateTime &amp;lt; NextTime" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=5;fillColor=default;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
-          <mxGeometry x="190" y="1228" width="440" height="190" as="geometry" />
+          <mxGeometry x="390" y="1218" width="440" height="190" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-252" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-251" target="iEZ80BCw2AyuzArefpKH-256">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-3880" y="-684.2399999999998" as="sourcePoint" />
-            <mxPoint x="-3880" y="-626.2399999999998" as="targetPoint" />
+            <mxPoint x="-3680" y="-694.2399999999998" as="sourcePoint" />
+            <mxPoint x="-3680" y="-636.2399999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-253" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;strokeWidth=5;fillColor=default;" connectable="0" vertex="1" parent="iEZ80BCw2AyuzArefpKH-252">
@@ -410,28 +417,48 @@
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-254" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-251" target="iEZ80BCw2AyuzArefpKH-257">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-3639.9999999999995" y="-787.3699999999999" as="sourcePoint" />
-            <mxPoint x="-3423.52" y="-786.7799999999997" as="targetPoint" />
+            <mxPoint x="-3439.9999999999995" y="-797.3699999999999" as="sourcePoint" />
+            <mxPoint x="-3223.52" y="-796.7799999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-255" value="否" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;strokeWidth=5;fillColor=default;" connectable="0" vertex="1" parent="iEZ80BCw2AyuzArefpKH-254">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-256" value="尾部数据出列，并执行这个Action的Action的函数&lt;br&gt;（反射相关）&lt;br&gt;缓存数-1&lt;br&gt;输出日志？&lt;br&gt;&lt;div&gt;&lt;div&gt;PathActions.Dequeue(Action);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;				&lt;/span&gt;EntityManager-&amp;gt;Execute(Action.Get());&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;				&lt;/span&gt;CacheNum--;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
-          <mxGeometry x="170" y="1510" width="480" height="150" as="geometry" />
+          <mxGeometry x="370" y="1500" width="480" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="iEZ80BCw2AyuzArefpKH-257" value="跳出循环&lt;br&gt;break" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
-          <mxGeometry x="880" y="1288.5" width="240" height="69" as="geometry" />
-        </mxCell>
-        <mxCell id="iEZ80BCw2AyuzArefpKH-258" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-256">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-3500" y="-490" as="sourcePoint" />
-            <mxPoint x="410" y="930" as="targetPoint" />
+        <mxCell id="iEZ80BCw2AyuzArefpKH-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-257" target="iEZ80BCw2AyuzArefpKH-264">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1180" y="1585" />
-              <mxPoint x="1180" y="930" />
+              <mxPoint x="1450" y="1313" />
+              <mxPoint x="1450" y="1065" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-257" value="跳出循环&lt;br&gt;break" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
+          <mxGeometry x="1080" y="1278.5" width="240" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-258" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-256">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3300" y="-500" as="sourcePoint" />
+            <mxPoint x="610" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="1575" />
+              <mxPoint x="170" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-262" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iEZ80BCw2AyuzArefpKH-217" source="iEZ80BCw2AyuzArefpKH-248" target="iEZ80BCw2AyuzArefpKH-264">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="1100" as="sourcePoint" />
+            <mxPoint x="1070" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-263" value="否" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;strokeWidth=5;fillColor=default;" connectable="0" vertex="1" parent="iEZ80BCw2AyuzArefpKH-262">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-264" value="停止循环" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=5;fillColor=default;size=50;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-217">
+          <mxGeometry x="1560" y="1030.5" width="240" height="69" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-219" value="BACKWARDFORWARD" style="swimlane;strokeColor=#000000;strokeWidth=5;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="5680" y="1865" width="200" height="200" as="geometry" />
