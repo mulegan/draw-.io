@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T15:14:44.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="fO0S0BQmFi_Qnr0rtxIK" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T15:21:18.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="Hw0FempQ8usRBxEmNwg6" version="18.0.7" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="2947" dy="1003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2842" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
             <mxRectangle y="30" width="860" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iEZ80BCw2AyuzArefpKH-80" value="	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Start PreView&quot;, Keywords = &quot;Start PreView&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void StartPreView();&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Pause PreView&quot;, Keywords = &quot;Pause PreView&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void PausePreView();&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Stop PreView&quot;, Keywords = &quot;Stop PreView&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void StopPreView();&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Is Running&quot;, Keywords = &quot;Is Running&quot;), Category = &quot;PreViewManager&quot;)&#xa;		bool IsRunning();&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Is Pausing&quot;, Keywords = &quot;Is Pausing&quot;), Category = &quot;PreViewManager&quot;)&#xa;		bool IsPausing();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get Step&quot;, Keywords = &quot;Get Step&quot;), Category = &quot;PreViewManager&quot;)&#xa;		float GetStep();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Set Speed&quot;, Keywords = &quot;Set Speed&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void SetSpeed(float InSpeed);&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get Speed&quot;, Keywords = &quot;Get Speed&quot;), Category = &quot;PreViewManager&quot;)&#xa;		float GetSpeed();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Set PlayOrder&quot;, Keywords = &quot;Set PlayOrder&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void SetPlayOrder(EPlayOrder InOrder);&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get PlayOrder&quot;, Keywords = &quot;Get PlayOrder&quot;), Category = &quot;PreViewManager&quot;)&#xa;		EPlayOrder GetPlayOrder();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Set StartTime&quot;, Keywords = &quot;Set StartTime&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void SetStartTime(FDateTime InTime);&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get StartTime&quot;, Keywords = &quot;Get StartTime&quot;), Category = &quot;PreViewManager&quot;)&#xa;		FDateTime GetStartTime();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Set EndTime&quot;, Keywords = &quot;Set EndTime&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void SetEndTime(FDateTime InTime);&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get EndTime&quot;, Keywords = &quot;Get EndTime&quot;), Category = &quot;PreViewManager&quot;)	&#xa;		FDateTime GetEndTime();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Set CurrentTime&quot;, Keywords = &quot;Set CurrentTime&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void SetCurrentTime(FDateTime InTime);&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get CurrentTime&quot;, Keywords = &quot;Get CurrentTime&quot;), Category = &quot;PreViewManager&quot;)&#xa;		FDateTime GetCurrentTime();&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get CurrentTime String&quot;, Keywords = &quot;Get CurrentTime String&quot;), Category = &quot;PreViewManager&quot;)&#xa;		FString GetCurrentTimeString();&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Set Ratio&quot;, Keywords = &quot;Set Ratio&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void SetRatio(float InRatio);&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get Ratio&quot;, Keywords = &quot;Get Ratio&quot;), Category = &quot;PreViewManager&quot;)&#xa;		float GetRatio();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Reset Data&quot;, Keywords = &quot;Reset Data&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void ResetData();&#xa;&#xa;	UFUNCTION(BlueprintCallable, Category = &quot;PreViewManager&quot;)&#xa;		virtual void SetPreViewName(const FName&amp; InName);&#xa;	UFUNCTION(BlueprintCallable, Category = &quot;PreViewManager&quot;)&#xa;		const FName&amp; GetPreViewName();&#xa;&#xa;	UFUNCTION(BlueprintCallable, Category = &quot;PreViewManager&quot;)&#xa;		virtual void SetPreViewDescription(const FString&amp; InDesp);&#xa;	UFUNCTION(BlueprintCallable, Category = &quot;PreViewManager&quot;)&#xa;		const FString&amp; GetPreViewDescription();" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-79">
+        <mxCell id="iEZ80BCw2AyuzArefpKH-80" value="	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Start PreView&quot;, Keywords = &quot;Start PreView&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void StartPreView();&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Pause PreView&quot;, Keywords = &quot;Pause PreView&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void PausePreView();&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Stop PreView&quot;, Keywords = &quot;Stop PreView&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void StopPreView();&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Is Running&quot;, Keywords = &quot;Is Running&quot;), Category = &quot;PreViewManager&quot;)&#xa;		bool IsRunning();&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Is Pausing&quot;, Keywords = &quot;Is Pausing&quot;), Category = &quot;PreViewManager&quot;)&#xa;		bool IsPausing();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get Step&quot;, Keywords = &quot;Get Step&quot;), Category = &quot;PreViewManager&quot;)&#xa;		float GetStep();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Set Speed&quot;, Keywords = &quot;Set Speed&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void SetSpeed(float InSpeed);&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get Speed&quot;, Keywords = &quot;Get Speed&quot;), Category = &quot;PreViewManager&quot;)&#xa;		float GetSpeed();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Set PlayOrder&quot;, Keywords = &quot;Set PlayOrder&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void SetPlayOrder(EPlayOrder InOrder);&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get PlayOrder&quot;, Keywords = &quot;Get PlayOrder&quot;), Category = &quot;PreViewManager&quot;)&#xa;		EPlayOrder GetPlayOrder();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Set StartTime&quot;, Keywords = &quot;Set StartTime&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void SetStartTime(FDateTime InTime);&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get StartTime&quot;, Keywords = &quot;Get StartTime&quot;), Category = &quot;PreViewManager&quot;)&#xa;		FDateTime GetStartTime();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Set EndTime&quot;, Keywords = &quot;Set EndTime&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void SetEndTime(FDateTime InTime);&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get EndTime&quot;, Keywords = &quot;Get EndTime&quot;), Category = &quot;PreViewManager&quot;)	&#xa;		FDateTime GetEndTime();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Set CurrentTime&quot;, Keywords = &quot;Set CurrentTime&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void SetCurrentTime(FDateTime InTime);&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get CurrentTime&quot;, Keywords = &quot;Get CurrentTime&quot;), Category = &quot;PreViewManager&quot;)&#xa;		FDateTime GetCurrentTime();&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get CurrentTime String&quot;, Keywords = &quot;Get CurrentTime String&quot;), Category = &quot;PreViewManager&quot;)&#xa;		FString GetCurrentTimeString();&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Set Ratio&quot;, Keywords = &quot;Set Ratio&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void SetRatio(float InRatio);&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Get Ratio&quot;, Keywords = &quot;Get Ratio&quot;), Category = &quot;PreViewManager&quot;)&#xa;		float GetRatio();&#xa;&#xa;	UFUNCTION(BlueprintCallable, meta = (DisplayName = &quot;Reset Data&quot;, Keywords = &quot;Reset Data&quot;), Category = &quot;PreViewManager&quot;)&#xa;		void ResetData();&#xa;&#xa;	UFUNCTION(BlueprintCallable, Category = &quot;PreViewManager&quot;)&#xa;		virtual void SetPreViewName(const FName&amp; InName);&#xa;	UFUNCTION(BlueprintCallable, Category = &quot;PreViewManager&quot;)&#xa;		const FName&amp; GetPreViewName();&#xa;&#xa;	UFUNCTION(BlueprintCallable, Category = &quot;PreViewManager&quot;)&#xa;		virtual void SetPreViewDescription(const FString&amp; InDesp);&#xa;	UFUNCTION(BlueprintCallable, Category = &quot;PreViewManager&quot;)&#xa;		const FString&amp; GetPreViewDescription();" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#ffe6cc;strokeColor=#000000;flipH=1;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-79">
           <mxGeometry y="30" width="860" height="870" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-81" value="OnlyC++Func Public" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fillColor=#fff2cc;strokeWidth=2;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-42">
@@ -50,7 +50,7 @@
           <mxGeometry y="30" width="860" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-54" value="&lt;&lt;Enum&gt;&gt;&#xa;EplayOrder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="610" width="410" height="150" as="geometry">
+          <mxGeometry x="-200" y="620" width="410" height="150" as="geometry">
             <mxRectangle x="-390" y="610" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -76,30 +76,30 @@
           <mxGeometry x="890" y="40" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-45" value="	UPreViewManager();&#xa;	~UPreViewManager();&#xa;&#xa;&#xa;+void StartPreView();&#xa;+void PausePreView();&#xa;+void StopPreView();&#xa;+bool IsRunning();&#xa;+bool IsPausing();&#xa;&#xa;+float GetStep();&#xa;+void SetSpeed(float InSpeed);&#xa;+float GetSpeed();&#xa;&#xa;+void SetPlayOrder(EPlayOrder InOrder);&#xa;+EPlayOrder GetPlayOrder();&#xa;&#xa;+void SetStartTime(FDateTime InTime);&#xa;+FDateTime GetStartTime();&#xa;&#xa;+void SetEndTime(FDateTime InTime);&#xa;+FDateTime GetEndTime();&#xa;&#xa;+void SetCurrentTime(FDateTime InTime);&#xa;+FDateTime GetCurrentTime();&#xa;+FString GetCurrentTimeString();&#xa;+void SetRatio(float InRatio);&#xa;+float GetRatio();&#xa;&#xa;+void ResetData();&#xa;&#xa;+virtual void SetPreViewName(const FName&amp; InName);&#xa;+const FName&amp; GetPreViewName();&#xa;&#xa;+virtual void SetPreViewDescription(const FString&amp; InDesp);&#xa;+const FString&amp; GetPreViewDescription();" style="text;strokeColor=#000000;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="1">
-          <mxGeometry x="-870" y="720" width="410" height="560" as="geometry" />
+          <mxGeometry x="-1030" y="720" width="410" height="560" as="geometry" />
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-67" value="UFUNCTION Public" style="swimlane;strokeColor=#000000;fillColor=#fff2cc;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="-930" y="1460" width="410" height="23" as="geometry">
+          <mxGeometry x="-1040" y="1450" width="410" height="23" as="geometry">
             <mxRectangle y="1070" width="410" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-68" value="OnlyC++Func Public" style="swimlane;strokeColor=#000000;fillColor=#fff2cc;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="-930" y="1496" width="410" height="23" as="geometry">
+          <mxGeometry x="-1040" y="1486" width="410" height="23" as="geometry">
             <mxRectangle y="173" width="410" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-69" value="OnlyC++Func Private" style="swimlane;strokeColor=#000000;fillColor=#fff2cc;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="-930" y="1534" width="410" height="23" as="geometry">
+          <mxGeometry x="-1040" y="1524" width="410" height="23" as="geometry">
             <mxRectangle y="196" width="410" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-70" value="OnlyC++Property Private" style="swimlane;strokeColor=#000000;fillColor=#fff2cc;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="-930" y="1572" width="410" height="22" as="geometry">
+          <mxGeometry x="-1040" y="1562" width="410" height="22" as="geometry">
             <mxRectangle y="150" width="410" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZ80BCw2AyuzArefpKH-72" value="UPROPERTY Public" style="swimlane;strokeColor=#000000;fillColor=#fff2cc;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="-930" y="1610" width="410" height="22" as="geometry">
+          <mxGeometry x="-1040" y="1600" width="410" height="22" as="geometry">
             <mxRectangle y="241" width="410" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -108,6 +108,40 @@
             <mxPoint x="-80" y="580" as="sourcePoint" />
             <mxPoint x="250" y="480" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-121" value="PreViewFunction" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#000000;strokeWidth=5;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="100" width="860" height="790" as="geometry">
+            <mxRectangle x="310" y="210" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iEZ80BCw2AyuzArefpKH-121" source="iEZ80BCw2AyuzArefpKH-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-126" value="FPreViewFunction" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fillColor=#fff2cc;strokeWidth=2;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-121">
+          <mxGeometry y="30" width="860" height="180" as="geometry">
+            <mxRectangle y="30" width="860" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-127" value="	virtual void Tick(float DeltaTime) override;&#xa;	virtual bool IsTickable() const override;&#xa;	virtual TStatId GetStatId() const override;&#xa;&#xa;	void Clear();&#xa;&#xa;	void SetStep(float InStep);&#xa;" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-126">
+          <mxGeometry y="30" width="860" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-128" value="FKeyPointFunction" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fillColor=#fff2cc;strokeWidth=2;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-121">
+          <mxGeometry y="210" width="860" height="500" as="geometry">
+            <mxRectangle y="530" width="860" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-129" value="TArray&lt;class FRunnableThread*&gt; Workers;&#xa;	int32 NumberOfThreads = 1;&#xa;	friend class FPreViewWorker;&#xa;&#xa;	class UEntityManager* EntityManager = nullptr;&#xa;&#xa;	FDateTime StartTime = FDateTime::Now();&#xa;	FDateTime EndTime = FDateTime::Now();&#xa;	FDateTime CurrentTime = FDateTime::Now();&#xa;&#xa;	bool FinishAction = false;&#xa;	bool Start = false;&#xa;	bool Pause = false;&#xa;	int32 Step = 20;//毫秒&#xa;	float Speed = 1.0f;&#xa;	EPlayOrder PlayOrder = EPlayOrder::FORWARD;&#xa;&#xa;	TQueue&lt;TSharedPtr&lt;FAction&gt;, EQueueMode::Mpsc&gt; Actions;&#xa;	TQueue&lt;TSharedPtr&lt;FAction&gt;, EQueueMode::Mpsc&gt; PathActions;&#xa;	int32 CacheNum = 0;&#xa;&#xa;	TMap&lt;FGuid, TSharedPtr&lt;FAction&gt;&gt; PreDealDatas;&#xa;	TMap&lt;FGuid, TSharedPtr&lt;FEntityPath&gt;&gt; PreDealPathDatas;&#xa;&#xa;	FCriticalSection Mutex;&#xa;&#xa;	TMap&lt;FName, TSharedPtr&lt;class FPreViewFunction&gt;&gt; Functions;&#xa;&#xa;	FName PreViewName = &quot;&quot;;&#xa;	FString PreViewDescription = &quot;&quot;;" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-128">
+          <mxGeometry y="30" width="860" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-130" value="FCircleFunction" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fillColor=#fff2cc;strokeWidth=2;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-121">
+          <mxGeometry y="710" width="860" height="80" as="geometry">
+            <mxRectangle y="590" width="860" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEZ80BCw2AyuzArefpKH-131" value="	UPROPERTY(BlueprintAssignable, Category = &quot;PreViewManager&quot;)&#xa;		FPreViewStopEvent StopEvent;" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="iEZ80BCw2AyuzArefpKH-130">
+          <mxGeometry y="30" width="860" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
